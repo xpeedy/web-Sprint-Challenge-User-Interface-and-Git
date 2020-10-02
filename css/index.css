@@ -60,10 +60,12 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    font-weight: bold;
 }
 
 p {
     line-height: 1.4;
+    font-weight: bold;
 }
 
 .container {
@@ -168,6 +170,42 @@ footer nav a {
 }
 
 .top-img {
-    margin: 4%;
-    
+    margin: 4%;   
+}
+
+.boxes .box:nth-of-type(1) {
+    background-color: teal;
+}
+
+.boxes .box:nth-of-type(2) {
+    background-color: gold;
+}
+
+.boxes .box:nth-of-type(3) {
+    background-color: cadetblue;
+}
+
+.boxes .box:nth-of-type(4) {
+    background-color: coral;
+}
+
+.boxes .box:nth-of-type(5) {
+    background-color: crimson;
+}
+
+.boxes .box:nth-of-type(6) {
+    background-color: forestgreen;
+}
+
+.boxes .box:nth-of-type(7) {
+    background-color: darkorchid;
+}
+.boxes .box:nth-of-type(8) {
+    background-color: hotpink;
+}
+.boxes .box:nth-of-type(9) {
+    background-color: indigo;
+}
+.boxes .box:nth-of-type(10) {
+    background-color: dodgerblue;
 }
